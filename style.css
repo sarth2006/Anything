@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*Font of the txt*/
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    height: 100vh;
+    /*Background Gradient Color*/
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    display: flex;
+    /*Justification*/
+    justify-content: center;
+    /*alignment*/
+    align-items: center;
+}
+/*Text Container Background*/
+.container{
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+/*for heading*/
+h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+/*for sub-heading text*/
+p{
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+/*for buttons*/
+.button{
+    padding: 12px 18px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+/*Yes Button*/
+#yesBtn{
+    background-color: #ff5f7e;
+    /*txt color*/
+    color: white;
+}
+/*No Button*/
+#noBtn{
+    background-color: #ddd;
+}
+
+button.active{
+    transform: scale(0.95);
+}
+
+@keyframes float {
+    from{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(-100vh);
+        opacity: 0;
+    }
+}
