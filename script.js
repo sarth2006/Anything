@@ -1,11 +1,14 @@
 const yesBtn = document.getElementById("yesBtn");
 const noBtn = document.getElementById("noBtn");
 const message = document.getElementById("message");
-const subtext = document.getElementById("subtext");
+const subtext1 = document.getElementById("subtext1");
+const subtext2 = document.getElementById("subtext2");
+
 
 yesBtn.addEventListener("click", () => {
     message.innerText = "I'm glad you clickeddddd💖";
-    subtext.innerText = "Just wanted to say you’re really speciallll ✨";
+    subtext1.innerText = "Just wanted to say you’re really speciallll ✨";
+    subtext2.style.display = "none";
 
     yesBtn.style.display = "none";
     noBtn.style.display = "none";
@@ -34,3 +37,4 @@ function createHearts(){
     }
 
 }
+
