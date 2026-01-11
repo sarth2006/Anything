@@ -4,8 +4,8 @@ const message = document.getElementById("message");
 const subtext = document.getElementById("subtext");
 
 yesBtn.addEventListener("click", () => {
-    message.innerText = "I'm glad you clicked💖";
-    subtext.innerText = "Just wanted to say you’re really special ✨";
+    message.innerText = "I'm glad you clickeddddd💖";
+    subtext.innerText = "Just wanted to say you’re really speciallll ✨";
 
     yesBtn.style.display = "none";
     noBtn.style.display = "none";
@@ -32,4 +32,5 @@ function createHearts(){
 
         setTimeout(() => heart.remove(), 3000);
     }
+
 }
